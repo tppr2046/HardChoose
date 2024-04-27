@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 65e67fdd548dd6748aa9ccc8ec97e331
+  m_SerializeEntries:
+  - m_GUID: b1e90a4cefc1f2a409ac727d50028c54
+    m_Address: Assets/OArielG/2DSimpleUIPack/Examples/Graphics/ui-large-buttons-vertical.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 94652e9f5f0a65f4e88f96ca4d4aa52a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f69c837c48420854da5c16de41df0b7c, type: 2}
+    - {fileID: 11400000, guid: 1343086001a43ff4fa3f5e6b7f625770, type: 2}

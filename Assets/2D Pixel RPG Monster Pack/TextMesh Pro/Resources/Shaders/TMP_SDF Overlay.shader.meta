@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dd89cf5b9246416f84610a006f916af7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 174649
+  packageName: 2D Pixel - RPG Monster Pack
+  packageVersion: 1.0
+  assetPath: Assets/2D Pixel RPG Monster Pack/TextMesh Pro/Resources/Shaders/TMP_SDF
+    Overlay.shader
+  uploadId: 380362

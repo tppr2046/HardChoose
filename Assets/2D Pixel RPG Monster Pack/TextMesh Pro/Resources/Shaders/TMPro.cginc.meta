@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 407bc68d299748449bbf7f48ee690f8d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: Version 2.0
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 174649
+  packageName: 2D Pixel - RPG Monster Pack
+  packageVersion: 1.0
+  assetPath: Assets/2D Pixel RPG Monster Pack/TextMesh Pro/Resources/Shaders/TMPro.cginc
+  uploadId: 380362
