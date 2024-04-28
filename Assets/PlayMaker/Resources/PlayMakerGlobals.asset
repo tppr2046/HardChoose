@@ -24,7 +24,7 @@ MonoBehaviour:
     quaternionVariables: []
     gameObjectVariables:
     - useVariable: 1
-      name: GAME_MANAGER
+      name: BATTLE_MANAGER
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -32,9 +32,22 @@ MonoBehaviour:
     objectVariables: []
     materialVariables: []
     textureVariables: []
-    arrayVariables: []
+    arrayVariables:
+    - useVariable: 1
+      name: card_array
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      type: 3
+      objectTypeName: UnityEngine.Object
+      floatValues: []
+      intValues: 
+      boolValues: 
+      stringValues: []
+      vector4Values: []
+      objectReferences: []
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 000000000000000000000000
   events: []
