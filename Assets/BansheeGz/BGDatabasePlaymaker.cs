@@ -1994,6 +1994,8 @@ public partial class PLAYERGetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldEntityName __generatedField___name => _ufle12jhs77_name ?? (_ufle12jhs77_name = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldEntityName>(MetaDefault, new BGId(5169658416746682095UL, 3150112372926079154UL), () => _ufle12jhs77_name = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_HP;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___HP => _ufle12jhs77_HP ?? (_ufle12jhs77_HP = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4734214452467140122UL, 9366261074002440105UL), () => _ufle12jhs77_HP = null));
+	private static BansheeGz.BGDatabase.BGFieldUnityPrefab _ufle12jhs77_prefab;
+	public static BansheeGz.BGDatabase.BGFieldUnityPrefab __generatedField___prefab => _ufle12jhs77_prefab ?? (_ufle12jhs77_prefab = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnityPrefab>(MetaDefault, new BGId(5058955574614941850UL, 15311903562225789603UL), () => _ufle12jhs77_prefab = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity id")]
 	public FsmString _Id;
@@ -2001,6 +2003,8 @@ public partial class PLAYERGetById : FsmStateAction
 	public FsmString name;
 	[UIHint(UIHint.Variable)]
 	public FsmInt HP;
+	[UIHint(UIHint.Variable)]
+	public FsmGameObject prefab;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -2013,6 +2017,7 @@ public partial class PLAYERGetById : FsmStateAction
 		_Id = new FsmString{UseVariable = true};
 		name = null;
 		HP = null;
+		prefab = null;
 	}
 	public override void OnEnter()
 	{
@@ -2056,6 +2061,10 @@ public partial class PLAYERGetById : FsmStateAction
 		if(!HP.IsNone)
 		{
 			HP.Value = __generatedField___HP[as_dfa_fghsafa475_fasdfr3wetjr_index];
+		}
+		if(!prefab.IsNone)
+		{
+			prefab.Value = __generatedField___prefab[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		Finish();
 	}
@@ -2131,6 +2140,8 @@ public partial class PLAYERGetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldEntityName __generatedField___name => _ufle12jhs77_name ?? (_ufle12jhs77_name = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldEntityName>(MetaDefault, new BGId(5169658416746682095UL, 3150112372926079154UL), () => _ufle12jhs77_name = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_HP;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___HP => _ufle12jhs77_HP ?? (_ufle12jhs77_HP = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4734214452467140122UL, 9366261074002440105UL), () => _ufle12jhs77_HP = null));
+	private static BansheeGz.BGDatabase.BGFieldUnityPrefab _ufle12jhs77_prefab;
+	public static BansheeGz.BGDatabase.BGFieldUnityPrefab __generatedField___prefab => _ufle12jhs77_prefab ?? (_ufle12jhs77_prefab = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnityPrefab>(MetaDefault, new BGId(5058955574614941850UL, 15311903562225789603UL), () => _ufle12jhs77_prefab = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -2138,6 +2149,8 @@ public partial class PLAYERGetByIndex : FsmStateAction
 	public FsmString name;
 	[UIHint(UIHint.Variable)]
 	public FsmInt HP;
+	[UIHint(UIHint.Variable)]
+	public FsmGameObject prefab;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity id")]
 	public FsmString _Id;
@@ -2150,6 +2163,7 @@ public partial class PLAYERGetByIndex : FsmStateAction
 		_Index = new FsmInt{UseVariable = true};
 		name = null;
 		HP = null;
+		prefab = null;
 	}
 	public override void OnEnter()
 	{
@@ -2178,6 +2192,10 @@ public partial class PLAYERGetByIndex : FsmStateAction
 		if(!HP.IsNone)
 		{
 			HP.Value = __generatedField___HP[as_dfa_fghsafa475_fasdfr3wetjr_index];
+		}
+		if(!prefab.IsNone)
+		{
+			prefab.Value = __generatedField___prefab[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		Finish();
 	}
@@ -2241,6 +2259,8 @@ public partial class PLAYERGetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldEntityName __generatedField___name => _ufle12jhs77_name ?? (_ufle12jhs77_name = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldEntityName>(MetaDefault, new BGId(5169658416746682095UL, 3150112372926079154UL), () => _ufle12jhs77_name = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_HP;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___HP => _ufle12jhs77_HP ?? (_ufle12jhs77_HP = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4734214452467140122UL, 9366261074002440105UL), () => _ufle12jhs77_HP = null));
+	private static BansheeGz.BGDatabase.BGFieldUnityPrefab _ufle12jhs77_prefab;
+	public static BansheeGz.BGDatabase.BGFieldUnityPrefab __generatedField___prefab => _ufle12jhs77_prefab ?? (_ufle12jhs77_prefab = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnityPrefab>(MetaDefault, new BGId(5058955574614941850UL, 15311903562225789603UL), () => _ufle12jhs77_prefab = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity Name")]
 	public FsmString _Name;
@@ -2248,6 +2268,8 @@ public partial class PLAYERGetByName : FsmStateAction
 	public FsmString name;
 	[UIHint(UIHint.Variable)]
 	public FsmInt HP;
+	[UIHint(UIHint.Variable)]
+	public FsmGameObject prefab;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -2263,6 +2285,7 @@ public partial class PLAYERGetByName : FsmStateAction
 		_Name = new FsmString{UseVariable = true};
 		name = null;
 		HP = null;
+		prefab = null;
 	}
 	public override void OnEnter()
 	{
@@ -2306,6 +2329,10 @@ public partial class PLAYERGetByName : FsmStateAction
 		if(!HP.IsNone)
 		{
 			HP.Value = __generatedField___HP[as_dfa_fghsafa475_fasdfr3wetjr_index];
+		}
+		if(!prefab.IsNone)
+		{
+			prefab.Value = __generatedField___prefab[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		Finish();
 	}
