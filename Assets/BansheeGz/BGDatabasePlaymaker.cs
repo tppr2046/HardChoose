@@ -1260,36 +1260,36 @@ public partial class ENEMYGetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldUnitySprite __generatedField___sprite => _ufle12jhs77_sprite ?? (_ufle12jhs77_sprite = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnitySprite>(MetaDefault, new BGId(4745401082785847318UL, 7593219118938519991UL), () => _ufle12jhs77_sprite = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	[RequiredField]
@@ -1313,35 +1313,35 @@ public partial class ENEMYGetById : FsmStateAction
 	[UIHint(UIHint.Variable)]
 	public FsmInt card_count;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_1;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_2;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_3;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_4;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_5;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_6;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_7;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_8;
 	[UIHint(UIHint.Variable)]
@@ -1362,21 +1362,21 @@ public partial class ENEMYGetById : FsmStateAction
 		turn = null;
 		sprite = null;
 		card_count = null;
-		slot_type_1 = null;
+		slot_card_1 = null;
 		slot_value_1 = null;
-		slot_type_2 = null;
+		slot_card_2 = null;
 		slot_value_2 = null;
-		slot_type_3 = null;
+		slot_card_3 = null;
 		slot_value_3 = null;
-		slot_type_4 = null;
+		slot_card_4 = null;
 		slot_value_4 = null;
-		slot_type_5 = null;
+		slot_card_5 = null;
 		slot_value_5 = null;
-		slot_type_6 = null;
+		slot_card_6 = null;
 		slot_value_6 = null;
-		slot_type_7 = null;
+		slot_card_7 = null;
 		slot_value_7 = null;
-		slot_type_8 = null;
+		slot_card_8 = null;
 		slot_value_8 = null;
 	}
 	public override void OnEnter()
@@ -1446,65 +1446,65 @@ public partial class ENEMYGetById : FsmStateAction
 		{
 			card_count.Value = __generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_1.IsNone)
+		if(!slot_card_1.IsNone)
 		{
-			slot_type_1.Value = __generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_1.Value = __generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_1.IsNone)
 		{
 			slot_value_1.Value = __generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_2.IsNone)
+		if(!slot_card_2.IsNone)
 		{
-			slot_type_2.Value = __generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_2.Value = __generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_2.IsNone)
 		{
 			slot_value_2.Value = __generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_3.IsNone)
+		if(!slot_card_3.IsNone)
 		{
-			slot_type_3.Value = __generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_3.Value = __generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_3.IsNone)
 		{
 			slot_value_3.Value = __generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_4.IsNone)
+		if(!slot_card_4.IsNone)
 		{
-			slot_type_4.Value = __generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_4.Value = __generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_4.IsNone)
 		{
 			slot_value_4.Value = __generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_5.IsNone)
+		if(!slot_card_5.IsNone)
 		{
-			slot_type_5.Value = __generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_5.Value = __generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_5.IsNone)
 		{
 			slot_value_5.Value = __generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_6.IsNone)
+		if(!slot_card_6.IsNone)
 		{
-			slot_type_6.Value = __generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_6.Value = __generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_6.IsNone)
 		{
 			slot_value_6.Value = __generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_7.IsNone)
+		if(!slot_card_7.IsNone)
 		{
-			slot_type_7.Value = __generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_7.Value = __generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_7.IsNone)
 		{
 			slot_value_7.Value = __generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_8.IsNone)
+		if(!slot_card_8.IsNone)
 		{
-			slot_type_8.Value = __generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_8.Value = __generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_8.IsNone)
 		{
@@ -1534,36 +1534,36 @@ public partial class ENEMYSetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	[RequiredField]
@@ -1576,21 +1576,21 @@ public partial class ENEMYSetById : FsmStateAction
 	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt card_count;
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	public FsmInt slot_value_1;
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	public FsmInt slot_value_2;
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	public FsmInt slot_value_3;
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	public FsmInt slot_value_4;
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	public FsmInt slot_value_5;
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	public FsmInt slot_value_6;
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	public FsmInt slot_value_7;
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	public FsmInt slot_value_8;
 	public override void Reset()
 	{
@@ -1602,21 +1602,21 @@ public partial class ENEMYSetById : FsmStateAction
 		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		card_count = new FsmInt{UseVariable = true};
-		slot_type_1 = new FsmInt{UseVariable = true};
+		slot_card_1 = new FsmInt{UseVariable = true};
 		slot_value_1 = new FsmInt{UseVariable = true};
-		slot_type_2 = new FsmInt{UseVariable = true};
+		slot_card_2 = new FsmInt{UseVariable = true};
 		slot_value_2 = new FsmInt{UseVariable = true};
-		slot_type_3 = new FsmInt{UseVariable = true};
+		slot_card_3 = new FsmInt{UseVariable = true};
 		slot_value_3 = new FsmInt{UseVariable = true};
-		slot_type_4 = new FsmInt{UseVariable = true};
+		slot_card_4 = new FsmInt{UseVariable = true};
 		slot_value_4 = new FsmInt{UseVariable = true};
-		slot_type_5 = new FsmInt{UseVariable = true};
+		slot_card_5 = new FsmInt{UseVariable = true};
 		slot_value_5 = new FsmInt{UseVariable = true};
-		slot_type_6 = new FsmInt{UseVariable = true};
+		slot_card_6 = new FsmInt{UseVariable = true};
 		slot_value_6 = new FsmInt{UseVariable = true};
-		slot_type_7 = new FsmInt{UseVariable = true};
+		slot_card_7 = new FsmInt{UseVariable = true};
 		slot_value_7 = new FsmInt{UseVariable = true};
-		slot_type_8 = new FsmInt{UseVariable = true};
+		slot_card_8 = new FsmInt{UseVariable = true};
 		slot_value_8 = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
@@ -1674,65 +1674,65 @@ public partial class ENEMYSetById : FsmStateAction
 		{
 			__generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index] = card_count.Value;
 		}
-		if(!slot_type_1.IsNone)
+		if(!slot_card_1.IsNone)
 		{
-			__generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_1.Value;
+			__generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_1.Value;
 		}
 		if(!slot_value_1.IsNone)
 		{
 			__generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_1.Value;
 		}
-		if(!slot_type_2.IsNone)
+		if(!slot_card_2.IsNone)
 		{
-			__generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_2.Value;
+			__generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_2.Value;
 		}
 		if(!slot_value_2.IsNone)
 		{
 			__generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_2.Value;
 		}
-		if(!slot_type_3.IsNone)
+		if(!slot_card_3.IsNone)
 		{
-			__generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_3.Value;
+			__generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_3.Value;
 		}
 		if(!slot_value_3.IsNone)
 		{
 			__generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_3.Value;
 		}
-		if(!slot_type_4.IsNone)
+		if(!slot_card_4.IsNone)
 		{
-			__generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_4.Value;
+			__generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_4.Value;
 		}
 		if(!slot_value_4.IsNone)
 		{
 			__generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_4.Value;
 		}
-		if(!slot_type_5.IsNone)
+		if(!slot_card_5.IsNone)
 		{
-			__generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_5.Value;
+			__generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_5.Value;
 		}
 		if(!slot_value_5.IsNone)
 		{
 			__generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_5.Value;
 		}
-		if(!slot_type_6.IsNone)
+		if(!slot_card_6.IsNone)
 		{
-			__generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_6.Value;
+			__generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_6.Value;
 		}
 		if(!slot_value_6.IsNone)
 		{
 			__generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_6.Value;
 		}
-		if(!slot_type_7.IsNone)
+		if(!slot_card_7.IsNone)
 		{
-			__generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_7.Value;
+			__generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_7.Value;
 		}
 		if(!slot_value_7.IsNone)
 		{
 			__generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_7.Value;
 		}
-		if(!slot_type_8.IsNone)
+		if(!slot_card_8.IsNone)
 		{
-			__generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_8.Value;
+			__generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_8.Value;
 		}
 		if(!slot_value_8.IsNone)
 		{
@@ -1764,36 +1764,36 @@ public partial class ENEMYGetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldUnitySprite __generatedField___sprite => _ufle12jhs77_sprite ?? (_ufle12jhs77_sprite = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnitySprite>(MetaDefault, new BGId(4745401082785847318UL, 7593219118938519991UL), () => _ufle12jhs77_sprite = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	[RequiredField]
@@ -1817,35 +1817,35 @@ public partial class ENEMYGetByIndex : FsmStateAction
 	[UIHint(UIHint.Variable)]
 	public FsmInt card_count;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_1;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_2;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_3;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_4;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_5;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_6;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_7;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_8;
 	[UIHint(UIHint.Variable)]
@@ -1866,21 +1866,21 @@ public partial class ENEMYGetByIndex : FsmStateAction
 		turn = null;
 		sprite = null;
 		card_count = null;
-		slot_type_1 = null;
+		slot_card_1 = null;
 		slot_value_1 = null;
-		slot_type_2 = null;
+		slot_card_2 = null;
 		slot_value_2 = null;
-		slot_type_3 = null;
+		slot_card_3 = null;
 		slot_value_3 = null;
-		slot_type_4 = null;
+		slot_card_4 = null;
 		slot_value_4 = null;
-		slot_type_5 = null;
+		slot_card_5 = null;
 		slot_value_5 = null;
-		slot_type_6 = null;
+		slot_card_6 = null;
 		slot_value_6 = null;
-		slot_type_7 = null;
+		slot_card_7 = null;
 		slot_value_7 = null;
-		slot_type_8 = null;
+		slot_card_8 = null;
 		slot_value_8 = null;
 	}
 	public override void OnEnter()
@@ -1935,65 +1935,65 @@ public partial class ENEMYGetByIndex : FsmStateAction
 		{
 			card_count.Value = __generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_1.IsNone)
+		if(!slot_card_1.IsNone)
 		{
-			slot_type_1.Value = __generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_1.Value = __generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_1.IsNone)
 		{
 			slot_value_1.Value = __generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_2.IsNone)
+		if(!slot_card_2.IsNone)
 		{
-			slot_type_2.Value = __generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_2.Value = __generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_2.IsNone)
 		{
 			slot_value_2.Value = __generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_3.IsNone)
+		if(!slot_card_3.IsNone)
 		{
-			slot_type_3.Value = __generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_3.Value = __generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_3.IsNone)
 		{
 			slot_value_3.Value = __generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_4.IsNone)
+		if(!slot_card_4.IsNone)
 		{
-			slot_type_4.Value = __generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_4.Value = __generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_4.IsNone)
 		{
 			slot_value_4.Value = __generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_5.IsNone)
+		if(!slot_card_5.IsNone)
 		{
-			slot_type_5.Value = __generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_5.Value = __generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_5.IsNone)
 		{
 			slot_value_5.Value = __generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_6.IsNone)
+		if(!slot_card_6.IsNone)
 		{
-			slot_type_6.Value = __generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_6.Value = __generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_6.IsNone)
 		{
 			slot_value_6.Value = __generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_7.IsNone)
+		if(!slot_card_7.IsNone)
 		{
-			slot_type_7.Value = __generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_7.Value = __generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_7.IsNone)
 		{
 			slot_value_7.Value = __generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_8.IsNone)
+		if(!slot_card_8.IsNone)
 		{
-			slot_type_8.Value = __generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_8.Value = __generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_8.IsNone)
 		{
@@ -2023,36 +2023,36 @@ public partial class ENEMYSetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	[RequiredField]
@@ -2065,21 +2065,21 @@ public partial class ENEMYSetByIndex : FsmStateAction
 	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt card_count;
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	public FsmInt slot_value_1;
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	public FsmInt slot_value_2;
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	public FsmInt slot_value_3;
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	public FsmInt slot_value_4;
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	public FsmInt slot_value_5;
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	public FsmInt slot_value_6;
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	public FsmInt slot_value_7;
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	public FsmInt slot_value_8;
 	public override void Reset()
 	{
@@ -2091,21 +2091,21 @@ public partial class ENEMYSetByIndex : FsmStateAction
 		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		card_count = new FsmInt{UseVariable = true};
-		slot_type_1 = new FsmInt{UseVariable = true};
+		slot_card_1 = new FsmInt{UseVariable = true};
 		slot_value_1 = new FsmInt{UseVariable = true};
-		slot_type_2 = new FsmInt{UseVariable = true};
+		slot_card_2 = new FsmInt{UseVariable = true};
 		slot_value_2 = new FsmInt{UseVariable = true};
-		slot_type_3 = new FsmInt{UseVariable = true};
+		slot_card_3 = new FsmInt{UseVariable = true};
 		slot_value_3 = new FsmInt{UseVariable = true};
-		slot_type_4 = new FsmInt{UseVariable = true};
+		slot_card_4 = new FsmInt{UseVariable = true};
 		slot_value_4 = new FsmInt{UseVariable = true};
-		slot_type_5 = new FsmInt{UseVariable = true};
+		slot_card_5 = new FsmInt{UseVariable = true};
 		slot_value_5 = new FsmInt{UseVariable = true};
-		slot_type_6 = new FsmInt{UseVariable = true};
+		slot_card_6 = new FsmInt{UseVariable = true};
 		slot_value_6 = new FsmInt{UseVariable = true};
-		slot_type_7 = new FsmInt{UseVariable = true};
+		slot_card_7 = new FsmInt{UseVariable = true};
 		slot_value_7 = new FsmInt{UseVariable = true};
-		slot_type_8 = new FsmInt{UseVariable = true};
+		slot_card_8 = new FsmInt{UseVariable = true};
 		slot_value_8 = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
@@ -2151,65 +2151,65 @@ public partial class ENEMYSetByIndex : FsmStateAction
 		{
 			__generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index] = card_count.Value;
 		}
-		if(!slot_type_1.IsNone)
+		if(!slot_card_1.IsNone)
 		{
-			__generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_1.Value;
+			__generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_1.Value;
 		}
 		if(!slot_value_1.IsNone)
 		{
 			__generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_1.Value;
 		}
-		if(!slot_type_2.IsNone)
+		if(!slot_card_2.IsNone)
 		{
-			__generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_2.Value;
+			__generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_2.Value;
 		}
 		if(!slot_value_2.IsNone)
 		{
 			__generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_2.Value;
 		}
-		if(!slot_type_3.IsNone)
+		if(!slot_card_3.IsNone)
 		{
-			__generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_3.Value;
+			__generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_3.Value;
 		}
 		if(!slot_value_3.IsNone)
 		{
 			__generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_3.Value;
 		}
-		if(!slot_type_4.IsNone)
+		if(!slot_card_4.IsNone)
 		{
-			__generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_4.Value;
+			__generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_4.Value;
 		}
 		if(!slot_value_4.IsNone)
 		{
 			__generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_4.Value;
 		}
-		if(!slot_type_5.IsNone)
+		if(!slot_card_5.IsNone)
 		{
-			__generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_5.Value;
+			__generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_5.Value;
 		}
 		if(!slot_value_5.IsNone)
 		{
 			__generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_5.Value;
 		}
-		if(!slot_type_6.IsNone)
+		if(!slot_card_6.IsNone)
 		{
-			__generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_6.Value;
+			__generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_6.Value;
 		}
 		if(!slot_value_6.IsNone)
 		{
 			__generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_6.Value;
 		}
-		if(!slot_type_7.IsNone)
+		if(!slot_card_7.IsNone)
 		{
-			__generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_7.Value;
+			__generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_7.Value;
 		}
 		if(!slot_value_7.IsNone)
 		{
 			__generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_7.Value;
 		}
-		if(!slot_type_8.IsNone)
+		if(!slot_card_8.IsNone)
 		{
-			__generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_8.Value;
+			__generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_8.Value;
 		}
 		if(!slot_value_8.IsNone)
 		{
@@ -2241,36 +2241,36 @@ public partial class ENEMYGetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldUnitySprite __generatedField___sprite => _ufle12jhs77_sprite ?? (_ufle12jhs77_sprite = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnitySprite>(MetaDefault, new BGId(4745401082785847318UL, 7593219118938519991UL), () => _ufle12jhs77_sprite = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	[RequiredField]
@@ -2294,35 +2294,35 @@ public partial class ENEMYGetByName : FsmStateAction
 	[UIHint(UIHint.Variable)]
 	public FsmInt card_count;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_1;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_2;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_3;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_4;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_5;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_6;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_7;
 	[UIHint(UIHint.Variable)]
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	[UIHint(UIHint.Variable)]
 	public FsmInt slot_value_8;
 	[UIHint(UIHint.Variable)]
@@ -2346,21 +2346,21 @@ public partial class ENEMYGetByName : FsmStateAction
 		turn = null;
 		sprite = null;
 		card_count = null;
-		slot_type_1 = null;
+		slot_card_1 = null;
 		slot_value_1 = null;
-		slot_type_2 = null;
+		slot_card_2 = null;
 		slot_value_2 = null;
-		slot_type_3 = null;
+		slot_card_3 = null;
 		slot_value_3 = null;
-		slot_type_4 = null;
+		slot_card_4 = null;
 		slot_value_4 = null;
-		slot_type_5 = null;
+		slot_card_5 = null;
 		slot_value_5 = null;
-		slot_type_6 = null;
+		slot_card_6 = null;
 		slot_value_6 = null;
-		slot_type_7 = null;
+		slot_card_7 = null;
 		slot_value_7 = null;
-		slot_type_8 = null;
+		slot_card_8 = null;
 		slot_value_8 = null;
 	}
 	public override void OnEnter()
@@ -2430,65 +2430,65 @@ public partial class ENEMYGetByName : FsmStateAction
 		{
 			card_count.Value = __generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_1.IsNone)
+		if(!slot_card_1.IsNone)
 		{
-			slot_type_1.Value = __generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_1.Value = __generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_1.IsNone)
 		{
 			slot_value_1.Value = __generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_2.IsNone)
+		if(!slot_card_2.IsNone)
 		{
-			slot_type_2.Value = __generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_2.Value = __generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_2.IsNone)
 		{
 			slot_value_2.Value = __generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_3.IsNone)
+		if(!slot_card_3.IsNone)
 		{
-			slot_type_3.Value = __generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_3.Value = __generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_3.IsNone)
 		{
 			slot_value_3.Value = __generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_4.IsNone)
+		if(!slot_card_4.IsNone)
 		{
-			slot_type_4.Value = __generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_4.Value = __generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_4.IsNone)
 		{
 			slot_value_4.Value = __generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_5.IsNone)
+		if(!slot_card_5.IsNone)
 		{
-			slot_type_5.Value = __generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_5.Value = __generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_5.IsNone)
 		{
 			slot_value_5.Value = __generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_6.IsNone)
+		if(!slot_card_6.IsNone)
 		{
-			slot_type_6.Value = __generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_6.Value = __generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_6.IsNone)
 		{
 			slot_value_6.Value = __generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_7.IsNone)
+		if(!slot_card_7.IsNone)
 		{
-			slot_type_7.Value = __generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_7.Value = __generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_7.IsNone)
 		{
 			slot_value_7.Value = __generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!slot_type_8.IsNone)
+		if(!slot_card_8.IsNone)
 		{
-			slot_type_8.Value = __generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index];
+			slot_card_8.Value = __generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!slot_value_8.IsNone)
 		{
@@ -2518,36 +2518,36 @@ public partial class ENEMYSetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	[RequiredField]
@@ -2560,21 +2560,21 @@ public partial class ENEMYSetByName : FsmStateAction
 	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt card_count;
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	public FsmInt slot_value_1;
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	public FsmInt slot_value_2;
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	public FsmInt slot_value_3;
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	public FsmInt slot_value_4;
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	public FsmInt slot_value_5;
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	public FsmInt slot_value_6;
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	public FsmInt slot_value_7;
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	public FsmInt slot_value_8;
 	public override void Reset()
 	{
@@ -2586,21 +2586,21 @@ public partial class ENEMYSetByName : FsmStateAction
 		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		card_count = new FsmInt{UseVariable = true};
-		slot_type_1 = new FsmInt{UseVariable = true};
+		slot_card_1 = new FsmInt{UseVariable = true};
 		slot_value_1 = new FsmInt{UseVariable = true};
-		slot_type_2 = new FsmInt{UseVariable = true};
+		slot_card_2 = new FsmInt{UseVariable = true};
 		slot_value_2 = new FsmInt{UseVariable = true};
-		slot_type_3 = new FsmInt{UseVariable = true};
+		slot_card_3 = new FsmInt{UseVariable = true};
 		slot_value_3 = new FsmInt{UseVariable = true};
-		slot_type_4 = new FsmInt{UseVariable = true};
+		slot_card_4 = new FsmInt{UseVariable = true};
 		slot_value_4 = new FsmInt{UseVariable = true};
-		slot_type_5 = new FsmInt{UseVariable = true};
+		slot_card_5 = new FsmInt{UseVariable = true};
 		slot_value_5 = new FsmInt{UseVariable = true};
-		slot_type_6 = new FsmInt{UseVariable = true};
+		slot_card_6 = new FsmInt{UseVariable = true};
 		slot_value_6 = new FsmInt{UseVariable = true};
-		slot_type_7 = new FsmInt{UseVariable = true};
+		slot_card_7 = new FsmInt{UseVariable = true};
 		slot_value_7 = new FsmInt{UseVariable = true};
-		slot_type_8 = new FsmInt{UseVariable = true};
+		slot_card_8 = new FsmInt{UseVariable = true};
 		slot_value_8 = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
@@ -2654,65 +2654,65 @@ public partial class ENEMYSetByName : FsmStateAction
 		{
 			__generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index] = card_count.Value;
 		}
-		if(!slot_type_1.IsNone)
+		if(!slot_card_1.IsNone)
 		{
-			__generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_1.Value;
+			__generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_1.Value;
 		}
 		if(!slot_value_1.IsNone)
 		{
 			__generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_1.Value;
 		}
-		if(!slot_type_2.IsNone)
+		if(!slot_card_2.IsNone)
 		{
-			__generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_2.Value;
+			__generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_2.Value;
 		}
 		if(!slot_value_2.IsNone)
 		{
 			__generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_2.Value;
 		}
-		if(!slot_type_3.IsNone)
+		if(!slot_card_3.IsNone)
 		{
-			__generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_3.Value;
+			__generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_3.Value;
 		}
 		if(!slot_value_3.IsNone)
 		{
 			__generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_3.Value;
 		}
-		if(!slot_type_4.IsNone)
+		if(!slot_card_4.IsNone)
 		{
-			__generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_4.Value;
+			__generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_4.Value;
 		}
 		if(!slot_value_4.IsNone)
 		{
 			__generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_4.Value;
 		}
-		if(!slot_type_5.IsNone)
+		if(!slot_card_5.IsNone)
 		{
-			__generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_5.Value;
+			__generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_5.Value;
 		}
 		if(!slot_value_5.IsNone)
 		{
 			__generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_5.Value;
 		}
-		if(!slot_type_6.IsNone)
+		if(!slot_card_6.IsNone)
 		{
-			__generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_6.Value;
+			__generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_6.Value;
 		}
 		if(!slot_value_6.IsNone)
 		{
 			__generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_6.Value;
 		}
-		if(!slot_type_7.IsNone)
+		if(!slot_card_7.IsNone)
 		{
-			__generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_7.Value;
+			__generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_7.Value;
 		}
 		if(!slot_value_7.IsNone)
 		{
 			__generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_7.Value;
 		}
-		if(!slot_type_8.IsNone)
+		if(!slot_card_8.IsNone)
 		{
-			__generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_8.Value;
+			__generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_8.Value;
 		}
 		if(!slot_value_8.IsNone)
 		{
@@ -2762,36 +2762,36 @@ public partial class ENEMYCreate : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_card_count;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___card_count => _ufle12jhs77_card_count ?? (_ufle12jhs77_card_count = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5462635217969933301UL, 2996573671344502156UL), () => _ufle12jhs77_card_count = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_1;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_1 => _ufle12jhs77_slot_type_1 ?? (_ufle12jhs77_slot_type_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_type_1 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_1;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_1 => _ufle12jhs77_slot_card_1 ?? (_ufle12jhs77_slot_card_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5240913741348951404UL, 6661291146561982124UL), () => _ufle12jhs77_slot_card_1 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_1;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_1 => _ufle12jhs77_slot_value_1 ?? (_ufle12jhs77_slot_value_1 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5624442194120547481UL, 14319696933538215599UL), () => _ufle12jhs77_slot_value_1 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_2;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_2 => _ufle12jhs77_slot_type_2 ?? (_ufle12jhs77_slot_type_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_type_2 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_2;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_2 => _ufle12jhs77_slot_card_2 ?? (_ufle12jhs77_slot_card_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5184754297920844494UL, 7708844252551479696UL), () => _ufle12jhs77_slot_card_2 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_2;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_2 => _ufle12jhs77_slot_value_2 ?? (_ufle12jhs77_slot_value_2 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5153878718232253412UL, 4651893040153411519UL), () => _ufle12jhs77_slot_value_2 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_3;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_3 => _ufle12jhs77_slot_type_3 ?? (_ufle12jhs77_slot_type_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_type_3 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_3;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_3 => _ufle12jhs77_slot_card_3 ?? (_ufle12jhs77_slot_card_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5526711522619158983UL, 12763652170930485652UL), () => _ufle12jhs77_slot_card_3 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_3;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_3 => _ufle12jhs77_slot_value_3 ?? (_ufle12jhs77_slot_value_3 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4628279505074218956UL, 845890372481270961UL), () => _ufle12jhs77_slot_value_3 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_4;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_4 => _ufle12jhs77_slot_type_4 ?? (_ufle12jhs77_slot_type_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_type_4 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_4;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_4 => _ufle12jhs77_slot_card_4 ?? (_ufle12jhs77_slot_card_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5725040906204707435UL, 5765597171434615712UL), () => _ufle12jhs77_slot_card_4 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_4;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_4 => _ufle12jhs77_slot_value_4 ?? (_ufle12jhs77_slot_value_4 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507772246768043516UL, 11675898014272612527UL), () => _ufle12jhs77_slot_value_4 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_5;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_5 => _ufle12jhs77_slot_type_5 ?? (_ufle12jhs77_slot_type_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_type_5 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_5;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_5 => _ufle12jhs77_slot_card_5 ?? (_ufle12jhs77_slot_card_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5356140276423869401UL, 242103248405604782UL), () => _ufle12jhs77_slot_card_5 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_5;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_5 => _ufle12jhs77_slot_value_5 ?? (_ufle12jhs77_slot_value_5 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5105903895636465308UL, 1285012978026310550UL), () => _ufle12jhs77_slot_value_5 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_6;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_6 => _ufle12jhs77_slot_type_6 ?? (_ufle12jhs77_slot_type_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_type_6 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_6;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_6 => _ufle12jhs77_slot_card_6 ?? (_ufle12jhs77_slot_card_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5274833538750264286UL, 5764146482328320135UL), () => _ufle12jhs77_slot_card_6 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_6;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_6 => _ufle12jhs77_slot_value_6 ?? (_ufle12jhs77_slot_value_6 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4803899410184073900UL, 8737868666188243116UL), () => _ufle12jhs77_slot_value_6 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_7;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_7 => _ufle12jhs77_slot_type_7 ?? (_ufle12jhs77_slot_type_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_type_7 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_7;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_7 => _ufle12jhs77_slot_card_7 ?? (_ufle12jhs77_slot_card_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5376785448268648801UL, 2692761054922709147UL), () => _ufle12jhs77_slot_card_7 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_7;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_7 => _ufle12jhs77_slot_value_7 ?? (_ufle12jhs77_slot_value_7 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5507176289734163543UL, 2754054757436043416UL), () => _ufle12jhs77_slot_value_7 = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_type_8;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_type_8 => _ufle12jhs77_slot_type_8 ?? (_ufle12jhs77_slot_type_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_type_8 = null));
+	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_card_8;
+	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_card_8 => _ufle12jhs77_slot_card_8 ?? (_ufle12jhs77_slot_card_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5389452567774758692UL, 2997153898802582967UL), () => _ufle12jhs77_slot_card_8 = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_slot_value_8;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___slot_value_8 => _ufle12jhs77_slot_value_8 ?? (_ufle12jhs77_slot_value_8 = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4695288845939682446UL, 3129665410052176520UL), () => _ufle12jhs77_slot_value_8 = null));
 	public FsmString name;
@@ -2801,21 +2801,21 @@ public partial class ENEMYCreate : FsmStateAction
 	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt card_count;
-	public FsmInt slot_type_1;
+	public FsmInt slot_card_1;
 	public FsmInt slot_value_1;
-	public FsmInt slot_type_2;
+	public FsmInt slot_card_2;
 	public FsmInt slot_value_2;
-	public FsmInt slot_type_3;
+	public FsmInt slot_card_3;
 	public FsmInt slot_value_3;
-	public FsmInt slot_type_4;
+	public FsmInt slot_card_4;
 	public FsmInt slot_value_4;
-	public FsmInt slot_type_5;
+	public FsmInt slot_card_5;
 	public FsmInt slot_value_5;
-	public FsmInt slot_type_6;
+	public FsmInt slot_card_6;
 	public FsmInt slot_value_6;
-	public FsmInt slot_type_7;
+	public FsmInt slot_card_7;
 	public FsmInt slot_value_7;
-	public FsmInt slot_type_8;
+	public FsmInt slot_card_8;
 	public FsmInt slot_value_8;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
@@ -2829,21 +2829,21 @@ public partial class ENEMYCreate : FsmStateAction
 		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		card_count = new FsmInt{UseVariable = true};
-		slot_type_1 = new FsmInt{UseVariable = true};
+		slot_card_1 = new FsmInt{UseVariable = true};
 		slot_value_1 = new FsmInt{UseVariable = true};
-		slot_type_2 = new FsmInt{UseVariable = true};
+		slot_card_2 = new FsmInt{UseVariable = true};
 		slot_value_2 = new FsmInt{UseVariable = true};
-		slot_type_3 = new FsmInt{UseVariable = true};
+		slot_card_3 = new FsmInt{UseVariable = true};
 		slot_value_3 = new FsmInt{UseVariable = true};
-		slot_type_4 = new FsmInt{UseVariable = true};
+		slot_card_4 = new FsmInt{UseVariable = true};
 		slot_value_4 = new FsmInt{UseVariable = true};
-		slot_type_5 = new FsmInt{UseVariable = true};
+		slot_card_5 = new FsmInt{UseVariable = true};
 		slot_value_5 = new FsmInt{UseVariable = true};
-		slot_type_6 = new FsmInt{UseVariable = true};
+		slot_card_6 = new FsmInt{UseVariable = true};
 		slot_value_6 = new FsmInt{UseVariable = true};
-		slot_type_7 = new FsmInt{UseVariable = true};
+		slot_card_7 = new FsmInt{UseVariable = true};
 		slot_value_7 = new FsmInt{UseVariable = true};
-		slot_type_8 = new FsmInt{UseVariable = true};
+		slot_card_8 = new FsmInt{UseVariable = true};
 		slot_value_8 = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
@@ -2882,65 +2882,65 @@ public partial class ENEMYCreate : FsmStateAction
 			{
 				__generatedField___card_count[as_dfa_fghsafa475_fasdfr3wetjr_index] = card_count.Value;
 			}
-			if(!slot_type_1.IsNone)
+			if(!slot_card_1.IsNone)
 			{
-				__generatedField___slot_type_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_1.Value;
+				__generatedField___slot_card_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_1.Value;
 			}
 			if(!slot_value_1.IsNone)
 			{
 				__generatedField___slot_value_1[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_1.Value;
 			}
-			if(!slot_type_2.IsNone)
+			if(!slot_card_2.IsNone)
 			{
-				__generatedField___slot_type_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_2.Value;
+				__generatedField___slot_card_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_2.Value;
 			}
 			if(!slot_value_2.IsNone)
 			{
 				__generatedField___slot_value_2[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_2.Value;
 			}
-			if(!slot_type_3.IsNone)
+			if(!slot_card_3.IsNone)
 			{
-				__generatedField___slot_type_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_3.Value;
+				__generatedField___slot_card_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_3.Value;
 			}
 			if(!slot_value_3.IsNone)
 			{
 				__generatedField___slot_value_3[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_3.Value;
 			}
-			if(!slot_type_4.IsNone)
+			if(!slot_card_4.IsNone)
 			{
-				__generatedField___slot_type_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_4.Value;
+				__generatedField___slot_card_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_4.Value;
 			}
 			if(!slot_value_4.IsNone)
 			{
 				__generatedField___slot_value_4[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_4.Value;
 			}
-			if(!slot_type_5.IsNone)
+			if(!slot_card_5.IsNone)
 			{
-				__generatedField___slot_type_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_5.Value;
+				__generatedField___slot_card_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_5.Value;
 			}
 			if(!slot_value_5.IsNone)
 			{
 				__generatedField___slot_value_5[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_5.Value;
 			}
-			if(!slot_type_6.IsNone)
+			if(!slot_card_6.IsNone)
 			{
-				__generatedField___slot_type_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_6.Value;
+				__generatedField___slot_card_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_6.Value;
 			}
 			if(!slot_value_6.IsNone)
 			{
 				__generatedField___slot_value_6[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_6.Value;
 			}
-			if(!slot_type_7.IsNone)
+			if(!slot_card_7.IsNone)
 			{
-				__generatedField___slot_type_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_7.Value;
+				__generatedField___slot_card_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_7.Value;
 			}
 			if(!slot_value_7.IsNone)
 			{
 				__generatedField___slot_value_7[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_value_7.Value;
 			}
-			if(!slot_type_8.IsNone)
+			if(!slot_card_8.IsNone)
 			{
-				__generatedField___slot_type_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_type_8.Value;
+				__generatedField___slot_card_8[as_dfa_fghsafa475_fasdfr3wetjr_index] = slot_card_8.Value;
 			}
 			if(!slot_value_8.IsNone)
 			{
