@@ -26,10 +26,6 @@ public partial class CARDGetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldUnitySprite __generatedField___sprite => _ufle12jhs77_sprite ?? (_ufle12jhs77_sprite = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnitySprite>(MetaDefault, new BGId(5053070866147318265UL, 5992202951562131636UL), () => _ufle12jhs77_sprite = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity id")]
 	public FsmString _Id;
@@ -42,10 +38,6 @@ public partial class CARDGetById : FsmStateAction
 	public FsmObject sprite;
 	[UIHint(UIHint.Variable)]
 	public FsmInt type;
-	[UIHint(UIHint.Variable)]
-	public FsmInt atk;
-	[UIHint(UIHint.Variable)]
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -60,8 +52,6 @@ public partial class CARDGetById : FsmStateAction
 		name_text = null;
 		sprite = null;
 		type = null;
-		atk = null;
-		def = null;
 	}
 	public override void OnEnter()
 	{
@@ -114,14 +104,6 @@ public partial class CARDGetById : FsmStateAction
 		{
 			type.Value = __generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!atk.IsNone)
-		{
-			atk.Value = __generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
-		if(!def.IsNone)
-		{
-			def.Value = __generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
 		Finish();
 	}
 }
@@ -138,26 +120,18 @@ public partial class CARDSetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldString __generatedField___name_text => _ufle12jhs77_name_text ?? (_ufle12jhs77_name_text = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldString>(MetaDefault, new BGId(5042302853236200244UL, 8824820891137873550UL), () => _ufle12jhs77_name_text = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity id")]
 	public FsmString _Id;
 	public FsmString name;
 	public FsmString name_text;
 	public FsmInt type;
-	public FsmInt atk;
-	public FsmInt def;
 	public override void Reset()
 	{
 		_Id = new FsmString{UseVariable = true};
 		name = new FsmString{UseVariable = true};
 		name_text = new FsmString{UseVariable = true};
 		type = new FsmInt{UseVariable = true};
-		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
 	{
@@ -198,14 +172,6 @@ public partial class CARDSetById : FsmStateAction
 		{
 			__generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index] = type.Value;
 		}
-		if(!atk.IsNone)
-		{
-			__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-		}
-		if(!def.IsNone)
-		{
-			__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
-		}
 		Finish();
 	}
 }
@@ -224,10 +190,6 @@ public partial class CARDGetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldUnitySprite __generatedField___sprite => _ufle12jhs77_sprite ?? (_ufle12jhs77_sprite = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnitySprite>(MetaDefault, new BGId(5053070866147318265UL, 5992202951562131636UL), () => _ufle12jhs77_sprite = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -240,10 +202,6 @@ public partial class CARDGetByIndex : FsmStateAction
 	public FsmObject sprite;
 	[UIHint(UIHint.Variable)]
 	public FsmInt type;
-	[UIHint(UIHint.Variable)]
-	public FsmInt atk;
-	[UIHint(UIHint.Variable)]
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity id")]
 	public FsmString _Id;
@@ -258,8 +216,6 @@ public partial class CARDGetByIndex : FsmStateAction
 		name_text = null;
 		sprite = null;
 		type = null;
-		atk = null;
-		def = null;
 	}
 	public override void OnEnter()
 	{
@@ -297,14 +253,6 @@ public partial class CARDGetByIndex : FsmStateAction
 		{
 			type.Value = __generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!atk.IsNone)
-		{
-			atk.Value = __generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
-		if(!def.IsNone)
-		{
-			def.Value = __generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
 		Finish();
 	}
 }
@@ -321,26 +269,18 @@ public partial class CARDSetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldString __generatedField___name_text => _ufle12jhs77_name_text ?? (_ufle12jhs77_name_text = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldString>(MetaDefault, new BGId(5042302853236200244UL, 8824820891137873550UL), () => _ufle12jhs77_name_text = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
 	public FsmString name;
 	public FsmString name_text;
 	public FsmInt type;
-	public FsmInt atk;
-	public FsmInt def;
 	public override void Reset()
 	{
 		_Index = new FsmInt{UseVariable = true};
 		name = new FsmString{UseVariable = true};
 		name_text = new FsmString{UseVariable = true};
 		type = new FsmInt{UseVariable = true};
-		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
 	{
@@ -369,14 +309,6 @@ public partial class CARDSetByIndex : FsmStateAction
 		{
 			__generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index] = type.Value;
 		}
-		if(!atk.IsNone)
-		{
-			__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-		}
-		if(!def.IsNone)
-		{
-			__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
-		}
 		Finish();
 	}
 }
@@ -395,10 +327,6 @@ public partial class CARDGetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldUnitySprite __generatedField___sprite => _ufle12jhs77_sprite ?? (_ufle12jhs77_sprite = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldUnitySprite>(MetaDefault, new BGId(5053070866147318265UL, 5992202951562131636UL), () => _ufle12jhs77_sprite = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity Name")]
 	public FsmString _Name;
@@ -411,10 +339,6 @@ public partial class CARDGetByName : FsmStateAction
 	public FsmObject sprite;
 	[UIHint(UIHint.Variable)]
 	public FsmInt type;
-	[UIHint(UIHint.Variable)]
-	public FsmInt atk;
-	[UIHint(UIHint.Variable)]
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -432,8 +356,6 @@ public partial class CARDGetByName : FsmStateAction
 		name_text = null;
 		sprite = null;
 		type = null;
-		atk = null;
-		def = null;
 	}
 	public override void OnEnter()
 	{
@@ -486,14 +408,6 @@ public partial class CARDGetByName : FsmStateAction
 		{
 			type.Value = __generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
-		if(!atk.IsNone)
-		{
-			atk.Value = __generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
-		if(!def.IsNone)
-		{
-			def.Value = __generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
 		Finish();
 	}
 }
@@ -510,26 +424,18 @@ public partial class CARDSetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldString __generatedField___name_text => _ufle12jhs77_name_text ?? (_ufle12jhs77_name_text = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldString>(MetaDefault, new BGId(5042302853236200244UL, 8824820891137873550UL), () => _ufle12jhs77_name_text = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	[RequiredField]
 	[HutongGames.PlayMaker.Tooltip("Entity Name")]
 	public FsmString _Name;
 	public FsmString name;
 	public FsmString name_text;
 	public FsmInt type;
-	public FsmInt atk;
-	public FsmInt def;
 	public override void Reset()
 	{
 		_Name = new FsmString{UseVariable = true};
 		name = new FsmString{UseVariable = true};
 		name_text = new FsmString{UseVariable = true};
 		type = new FsmInt{UseVariable = true};
-		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
 	{
@@ -565,14 +471,6 @@ public partial class CARDSetByName : FsmStateAction
 		if(!type.IsNone)
 		{
 			__generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index] = type.Value;
-		}
-		if(!atk.IsNone)
-		{
-			__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-		}
-		if(!def.IsNone)
-		{
-			__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
 		}
 		Finish();
 	}
@@ -610,15 +508,9 @@ public partial class CARDCreate : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldString __generatedField___name_text => _ufle12jhs77_name_text ?? (_ufle12jhs77_name_text = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldString>(MetaDefault, new BGId(5042302853236200244UL, 8824820891137873550UL), () => _ufle12jhs77_name_text = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_type;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___type => _ufle12jhs77_type ?? (_ufle12jhs77_type = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4813175993904228444UL, 6180007212679252132UL), () => _ufle12jhs77_type = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5533205224230980473UL, 16695902370006601887UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5587583033166612870UL, 6409859751126395054UL), () => _ufle12jhs77_def = null));
 	public FsmString name;
 	public FsmString name_text;
 	public FsmInt type;
-	public FsmInt atk;
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	[HutongGames.PlayMaker.Tooltip("Entity index")]
 	public FsmInt _Index;
@@ -627,8 +519,6 @@ public partial class CARDCreate : FsmStateAction
 		name = new FsmString{UseVariable = true};
 		name_text = new FsmString{UseVariable = true};
 		type = new FsmInt{UseVariable = true};
-		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 	}
 	public override void OnEnter()
 	{
@@ -649,14 +539,6 @@ public partial class CARDCreate : FsmStateAction
 			if(!type.IsNone)
 			{
 				__generatedField___type[as_dfa_fghsafa475_fasdfr3wetjr_index] = type.Value;
-			}
-			if(!atk.IsNone)
-			{
-				__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-			}
-			if(!def.IsNone)
-			{
-				__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
 			}
 		}));
 		Finish();
