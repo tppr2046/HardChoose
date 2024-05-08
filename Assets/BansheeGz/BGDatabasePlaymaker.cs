@@ -1134,8 +1134,6 @@ public partial class ENEMYGetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -1191,8 +1189,6 @@ public partial class ENEMYGetById : FsmStateAction
 	public FsmInt hp;
 	[UIHint(UIHint.Variable)]
 	public FsmInt atk;
-	[UIHint(UIHint.Variable)]
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	public FsmInt turn;
 	[UIHint(UIHint.Variable)]
@@ -1252,7 +1248,6 @@ public partial class ENEMYGetById : FsmStateAction
 		name_text = null;
 		hp = null;
 		atk = null;
-		def = null;
 		turn = null;
 		dialog = null;
 		sprite = null;
@@ -1326,10 +1321,6 @@ public partial class ENEMYGetById : FsmStateAction
 		if(!atk.IsNone)
 		{
 			atk.Value = __generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
-		if(!def.IsNone)
-		{
-			def.Value = __generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!turn.IsNone)
 		{
@@ -1437,8 +1428,6 @@ public partial class ENEMYSetById : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -1488,7 +1477,6 @@ public partial class ENEMYSetById : FsmStateAction
 	public FsmString name_text;
 	public FsmInt hp;
 	public FsmInt atk;
-	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt dialog;
 	public FsmInt slot_card_1;
@@ -1517,7 +1505,6 @@ public partial class ENEMYSetById : FsmStateAction
 		name_text = new FsmString{UseVariable = true};
 		hp = new FsmInt{UseVariable = true};
 		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		dialog = new FsmInt{UseVariable = true};
 		slot_card_1 = new FsmInt{UseVariable = true};
@@ -1582,10 +1569,6 @@ public partial class ENEMYSetById : FsmStateAction
 		if(!atk.IsNone)
 		{
 			__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-		}
-		if(!def.IsNone)
-		{
-			__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
 		}
 		if(!turn.IsNone)
 		{
@@ -1689,8 +1672,6 @@ public partial class ENEMYGetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -1746,8 +1727,6 @@ public partial class ENEMYGetByIndex : FsmStateAction
 	public FsmInt hp;
 	[UIHint(UIHint.Variable)]
 	public FsmInt atk;
-	[UIHint(UIHint.Variable)]
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	public FsmInt turn;
 	[UIHint(UIHint.Variable)]
@@ -1807,7 +1786,6 @@ public partial class ENEMYGetByIndex : FsmStateAction
 		name_text = null;
 		hp = null;
 		atk = null;
-		def = null;
 		turn = null;
 		dialog = null;
 		sprite = null;
@@ -1866,10 +1844,6 @@ public partial class ENEMYGetByIndex : FsmStateAction
 		if(!atk.IsNone)
 		{
 			atk.Value = __generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
-		if(!def.IsNone)
-		{
-			def.Value = __generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!turn.IsNone)
 		{
@@ -1977,8 +1951,6 @@ public partial class ENEMYSetByIndex : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -2028,7 +2000,6 @@ public partial class ENEMYSetByIndex : FsmStateAction
 	public FsmString name_text;
 	public FsmInt hp;
 	public FsmInt atk;
-	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt dialog;
 	public FsmInt slot_card_1;
@@ -2057,7 +2028,6 @@ public partial class ENEMYSetByIndex : FsmStateAction
 		name_text = new FsmString{UseVariable = true};
 		hp = new FsmInt{UseVariable = true};
 		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		dialog = new FsmInt{UseVariable = true};
 		slot_card_1 = new FsmInt{UseVariable = true};
@@ -2110,10 +2080,6 @@ public partial class ENEMYSetByIndex : FsmStateAction
 		if(!atk.IsNone)
 		{
 			__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-		}
-		if(!def.IsNone)
-		{
-			__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
 		}
 		if(!turn.IsNone)
 		{
@@ -2217,8 +2183,6 @@ public partial class ENEMYGetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -2274,8 +2238,6 @@ public partial class ENEMYGetByName : FsmStateAction
 	public FsmInt hp;
 	[UIHint(UIHint.Variable)]
 	public FsmInt atk;
-	[UIHint(UIHint.Variable)]
-	public FsmInt def;
 	[UIHint(UIHint.Variable)]
 	public FsmInt turn;
 	[UIHint(UIHint.Variable)]
@@ -2338,7 +2300,6 @@ public partial class ENEMYGetByName : FsmStateAction
 		name_text = null;
 		hp = null;
 		atk = null;
-		def = null;
 		turn = null;
 		dialog = null;
 		sprite = null;
@@ -2412,10 +2373,6 @@ public partial class ENEMYGetByName : FsmStateAction
 		if(!atk.IsNone)
 		{
 			atk.Value = __generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index];
-		}
-		if(!def.IsNone)
-		{
-			def.Value = __generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index];
 		}
 		if(!turn.IsNone)
 		{
@@ -2523,8 +2480,6 @@ public partial class ENEMYSetByName : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -2574,7 +2529,6 @@ public partial class ENEMYSetByName : FsmStateAction
 	public FsmString name_text;
 	public FsmInt hp;
 	public FsmInt atk;
-	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt dialog;
 	public FsmInt slot_card_1;
@@ -2603,7 +2557,6 @@ public partial class ENEMYSetByName : FsmStateAction
 		name_text = new FsmString{UseVariable = true};
 		hp = new FsmInt{UseVariable = true};
 		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		dialog = new FsmInt{UseVariable = true};
 		slot_card_1 = new FsmInt{UseVariable = true};
@@ -2664,10 +2617,6 @@ public partial class ENEMYSetByName : FsmStateAction
 		if(!atk.IsNone)
 		{
 			__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-		}
-		if(!def.IsNone)
-		{
-			__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
 		}
 		if(!turn.IsNone)
 		{
@@ -2791,8 +2740,6 @@ public partial class ENEMYCreate : FsmStateAction
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___hp => _ufle12jhs77_hp ?? (_ufle12jhs77_hp = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4763064260743042073UL, 13436355263613966467UL), () => _ufle12jhs77_hp = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_atk;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___atk => _ufle12jhs77_atk ?? (_ufle12jhs77_atk = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(5244026626332198943UL, 12985382769540294536UL), () => _ufle12jhs77_atk = null));
-	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_def;
-	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___def => _ufle12jhs77_def ?? (_ufle12jhs77_def = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4855315240339554019UL, 7269966090011238324UL), () => _ufle12jhs77_def = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_turn;
 	public static BansheeGz.BGDatabase.BGFieldInt __generatedField___turn => _ufle12jhs77_turn ?? (_ufle12jhs77_turn = BGCodeGenUtils.GetField<BansheeGz.BGDatabase.BGFieldInt>(MetaDefault, new BGId(4977149666422984502UL, 15346623261495741090UL), () => _ufle12jhs77_turn = null));
 	private static BansheeGz.BGDatabase.BGFieldInt _ufle12jhs77_dialog;
@@ -2839,7 +2786,6 @@ public partial class ENEMYCreate : FsmStateAction
 	public FsmString name_text;
 	public FsmInt hp;
 	public FsmInt atk;
-	public FsmInt def;
 	public FsmInt turn;
 	public FsmInt dialog;
 	public FsmInt slot_card_1;
@@ -2870,7 +2816,6 @@ public partial class ENEMYCreate : FsmStateAction
 		name_text = new FsmString{UseVariable = true};
 		hp = new FsmInt{UseVariable = true};
 		atk = new FsmInt{UseVariable = true};
-		def = new FsmInt{UseVariable = true};
 		turn = new FsmInt{UseVariable = true};
 		dialog = new FsmInt{UseVariable = true};
 		slot_card_1 = new FsmInt{UseVariable = true};
@@ -2916,10 +2861,6 @@ public partial class ENEMYCreate : FsmStateAction
 			if(!atk.IsNone)
 			{
 				__generatedField___atk[as_dfa_fghsafa475_fasdfr3wetjr_index] = atk.Value;
-			}
-			if(!def.IsNone)
-			{
-				__generatedField___def[as_dfa_fghsafa475_fasdfr3wetjr_index] = def.Value;
 			}
 			if(!turn.IsNone)
 			{
