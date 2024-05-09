@@ -1785,14 +1785,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.002415459
+    y: 0
     width: 1
-    height: 0.99516904
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.4375
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2062,12 +2062,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.TouchEvent
+        - HutongGames.PlayMaker.Actions.GetMouseButtonDown
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: fdfb3a02
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000004000000
+        actionHashCodes: fdfb3a0234b46c04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -2096,7 +2098,13 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -2104,19 +2112,24 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - start game
-        byteData: 00000000
+        - start game
+        byteData: 000000000000000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 10000000070000001700000010000000
+        paramDataType: 1000000007000000170000001000000007000000170000001100000001000000
         paramName:
         - fingerId
         - touchPhase
         - sendEvent
         - storeFingerId
-        paramDataPos: 00000000000000000000000001000000
-        paramByteDataSize: 00000000040000000000000000000000
+        - button
+        - sendEvent
+        - storeResult
+        - inUpdateOnly
+        paramDataPos: 0000000000000000000000000100000004000000010000000000000008000000
+        paramByteDataSize: 0000000004000000000000000000000004000000000000000000000001000000
     - name: load game scene
       description: 
       colorIndex: 0
@@ -2573,8 +2586,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278211034
-  m_fontColor: {r: 0.8553459, g: 0.31591237, b: 0, a: 1}
+    rgba: 4290853103
+  m_fontColor: {r: 0.93725497, g: 0.21960786, b: 0.7568628, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3288,8 +3301,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278211034
-  m_fontColor: {r: 0.8553459, g: 0.31591237, b: 0, a: 1}
+    rgba: 4290853103
+  m_fontColor: {r: 0.93710685, g: 0.22101562, b: 0.75642014, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

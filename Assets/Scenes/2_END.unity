@@ -1788,14 +1788,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.002415459
+    y: 0
     width: 1
-    height: 0.99516904
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.4375
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2578,8 +2578,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278211034
-  m_fontColor: {r: 0.8553459, g: 0.31591237, b: 0, a: 1}
+    rgba: 4290853103
+  m_fontColor: {r: 0.9372549, g: 0.21960784, b: 0.75686276, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3038,8 +3038,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278211034
-  m_fontColor: {r: 0.8553459, g: 0.31591237, b: 0, a: 1}
+    rgba: 4290853103
+  m_fontColor: {r: 0.9372549, g: 0.21960784, b: 0.75686276, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3704,8 +3704,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278211034
-  m_fontColor: {r: 0.8553459, g: 0.31591237, b: 0, a: 1}
+    rgba: 4290853103
+  m_fontColor: {r: 0.9372549, g: 0.21960784, b: 0.75686276, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

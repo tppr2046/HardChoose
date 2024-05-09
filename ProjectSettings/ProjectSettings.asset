@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: HardChooseRPG
+  companyName: aaaaamac
+  productName: DecidophobiaRPG
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -42,10 +42,10 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
+  defaultScreenWidthWeb: 640
+  defaultScreenHeightWeb: 360
   m_StereoRenderingPath: 0
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
@@ -105,7 +105,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -138,7 +138,15 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 2800000, guid: dff22a01d1b904a1f9c583e670130324, type: 3}
+  - {fileID: 2800000, guid: 105018b1d54764052a5f57fdff8f67b0, type: 3}
+  - {fileID: 2800000, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+  - {fileID: 2800000, guid: ccb7015f806f8bf408ad275b64d05a74, type: 3}
+  - {fileID: 2800000, guid: 2b6d21890603e8441b3dadff70792455, type: 3}
+  - {fileID: 2800000, guid: ee6100725e0a79542adba70d506e1b3f, type: 3}
+  - {fileID: 2800000, guid: 005d61280f8b42a409f0a6a3546a9a9a, type: 3}
+  - {fileID: 2800000, guid: 3d2ceb4de2a713147abc06da178fec62, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -530,7 +538,8 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    PRODUCT_DESCRIPTION: 
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -793,7 +802,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: APPLICATION:PWA
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 0
@@ -823,7 +832,7 @@ PlayerSettings:
     PS4: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS
     PS5: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS
     QNX: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS
-    Standalone: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS
+    Standalone: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS;PLAYMAKER_TMPRO;PLAYMAKER_URP
     WebGL: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS;PLAYMAKER_TMPRO;PLAYMAKER_URP
     Windows Store Apps: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS
     XboxOne: PLAYMAKER;PLAYMAKER_1_9;PLAYMAKER_1_9_8;PLAYMAKER_1_8_OR_NEWER;PLAYMAKER_1_8_5_OR_NEWER;PLAYMAKER_1_9_OR_NEWER;ECOSYSTEM;ECOSYSTEM_0_6;ECOSYSTEM_0_6_OR_NEWER;DOTWEEN;PLAYMAKER_UTILS
@@ -833,6 +842,7 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   il2cppStacktraceInformation: {}
