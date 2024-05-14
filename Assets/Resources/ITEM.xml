@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ITEMS>
+  <ITEM id="4001" name_text="永久增加hp上限"      type="0" value="2" turn_length="0"></ITEM>
+  <ITEM id="4002" name_text="永久將箭頭移動減速"  type="1" value="5" turn_length="0"></ITEM>
+  <ITEM id="4003" name_text="永久增加動作格數"    type="2" value="1" turn_length="0"></ITEM>
+  <ITEM id="4004" name_text="洗牌"                type="3" value="0" turn_length="0"></ITEM>
+  <ITEM id="4005" name_text="暫時箭頭減速"        type="4" value="20" turn_length="3"></ITEM>
+</ITEMS>

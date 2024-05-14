@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ENEMYS>
+  <ENEMY id="2001"  name_text="測試怪1"  hp="5" atk="3"  turn="3" dialog="5003" sprite="0">
+    <SLOT slot ="0"  card_id="1001" card_value="5"></SLOT>
+    <SLOT slot ="1"  card_id="1002" card_value="2"></SLOT>
+    <SLOT slot ="2"  card_id="1003" card_value="5"></SLOT>
+    <SLOT slot ="3"  card_id="1001" card_value="5"></SLOT>
+    <SLOT slot ="4"  card_id="1006" card_value="5"></SLOT>
+    <SLOT slot ="5"  card_id="1007" card_value="5"></SLOT>
+    <SLOT slot ="6"  card_id="1008" card_value="5"></SLOT>
+    <SLOT slot ="7"  card_id="1008" card_value="5"></SLOT>
+    <ITEM item_slot="0" item_id="4003"></ITEM>
+    <ITEM item_slot="1" item_id="4003"></ITEM>
+    <ITEM item_slot="2" item_id="4003"></ITEM>
+  </ENEMY>
+  <ENEMY id="2002"  name_text="測試怪2"  hp="6" atk="3"  turn="4" dialog="5003" sprite="1">
+    <SLOT slot ="0"  card_id="1001" card_value="2"></SLOT>
+    <SLOT slot ="1"  card_id="1007" card_value="5"></SLOT>
+    <SLOT slot ="2"  card_id="1001" card_value="5"></SLOT>
+    <SLOT slot ="3"  card_id="1002" card_value="2"></SLOT>
+    <SLOT slot ="4"  card_id="1006" card_value="5"></SLOT>
+    <SLOT slot ="5"  card_id="1002" card_value="2"></SLOT>
+    <SLOT slot ="6"  card_id="1002" card_value="2"></SLOT>
+    <SLOT slot ="7"  card_id="1002" card_value="2"></SLOT>
+    <ITEM item_slot="0" item_id="4003"></ITEM>
+    <ITEM item_slot="1" item_id="4003"></ITEM>
+    <ITEM item_slot="2" item_id="4003"></ITEM>
+  </ENEMY>
+</ENEMYS>

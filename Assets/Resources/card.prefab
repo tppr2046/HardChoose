@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5519138638930156766}
   - component: {fileID: 1041690086068497551}
   - component: {fileID: 3810058353656307228}
+  - component: {fileID: 3319909584242677539}
   m_Layer: 5
   m_Name: card
   m_TagString: Untagged
@@ -100,8 +101,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 96.671875
-        y: 102.65625
+        x: 112
+        y: 103.984375
         width: 100
         height: 32
       isBreakpoint: 0
@@ -230,7 +231,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 317.28906
-        y: 652.3047
+        y: 764.3047
         width: 100
         height: 32
       isBreakpoint: 0
@@ -538,8 +539,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 97.328125
-        y: 158.66406
+        x: 110.64844
+        y: 174.65625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -547,10 +548,10 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: found
+          isSystemEvent: 0
           isGlobal: 0
-        toState: set sprite
+        toState: get sprite type
         linkStyle: 0
         linkConstraint: 0
         linkTarget: 0
@@ -558,18 +559,23 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetEventProperties
-        - CARDGetByName
-        - HutongGames.PlayMaker.Actions.ArrayGet
+        - HutongGames.PlayMaker.Actions.XmlSelectSingleNode
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000060000000e000000
-        actionHashCodes: afffe300d22008046ba59301
-        unityObjectParams: []
-        fsmGameObjectParams: []
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000006000000
+        actionHashCodes: afffe3001d038c04
+        unityObjectParams:
+        - {fileID: 4900000, guid: 46b878d82c19a4d4ea19811332d7f9ff, type: 3}
+        fsmGameObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -590,38 +596,61 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: card_value
-        - useVariable: 1
-          name: card_id
+        - useVariable: 0
+          name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: '/CARDS/CARD[ @id="_0_"]'
         - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 1
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
-        - useVariable: 1
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 
-        fsmObjectParams:
-        - useVariable: 1
+          value: '@name_text'
+        - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          typeName: UnityEngine.Sprite
-          value: {fileID: 0}
+          value: '@type'
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: '@sprite'
+        fsmObjectParams: []
         fsmVarParams:
         - variableName: card_id
           objectType: UnityEngine.Object
@@ -671,10 +700,10 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        - variableName: sprite
-          objectType: UnityEngine.Sprite
+        - variableName: card_id
+          objectType: UnityEngine.Object
           useVariable: 1
-          type: 12
+          type: 1
           floatValue: 0
           intValue: 0
           boolValue: 0
@@ -695,66 +724,123 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        fsmArrayParams:
-        - useVariable: 1
-          name: item_sprite_array
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          type: 12
-          objectTypeName: UnityEngine.Sprite
-          floatValues: []
-          intValues: 
-          boolValues: 
-          stringValues: []
-          vector4Values: []
-          objectReferences:
-          - {fileID: -1852840047, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: -1612823715, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: 381131419, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: -1040251257, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: -639447716, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: 527712784, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: -929612200, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
-          - {fileID: -1577358035, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+        - variableName: name_text
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 4
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: type
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: sprite_type
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 1
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: type
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
         - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 1
-          name: type
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
+        - Plain Text
+        - Text Asset
+        - Use Variable
+        - Use Proxy
+        - In Memory
+        - '/CARDS/CARD[ @id="0"]'
+        - found
         - 
         - 
-        byteData: 00
-        arrayParamSizes: 0200000002000000
+        byteData: 0100000000000000000000e040010101
+        arrayParamSizes: 02000000020000000500000001000000000000000000000003000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0c00000012000000120000000c000000270000002700000012000000120000001200000018000000100000001000000012000000170000002900000010000000270000000100000017000000
+        - System.String
+        - HutongGames.PlayMaker.FsmVar
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmVar
+        - FsmXmlProperty
+        customTypeSizes: 0b0000000400000002000000020000000200000002000000
+        customTypeNames:
+        - FsmXmlSource
+        - FsmXpathQuery
+        - FsmXmlPropertiesStorage
+        - FsmXmlProperty
+        - FsmXmlProperty
+        - FsmXmlProperty
+        paramDataType: 0c00000012000000120000000c0000002700000027000000280000000c00000003000000030000000300000003000000030000000000000005000000120000001300000012000000120000000100000008000000010000000100000028000000120000000c0000002700000001000000030000001200000012000000280000000c0000000c0000000c00000028000000120000002700000028000000120000002700000028000000120000002700000011000000170000001700000017000000
         paramName:
         - keys
         - 
@@ -762,28 +848,57 @@ MonoBehaviour:
         - datas
         - 
         - 
-        - _Name
-        - name
-        - name_text
-        - sprite
-        - type
-        - _Index
-        - _Id
-        - _NotFoundEvent
-        - array
-        - index
-        - storeValue
-        - everyFrame
-        - indexOutOfRange
-        paramDataPos: 00000000000000000100000001000000000000000100000002000000030000000400000000000000000000000100000005000000000000000000000002000000020000000000000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
+        - xmlSource
+        - sourceTypes
+        - 
+        - 
+        - 
+        - 
+        - 
+        - sourceSelection
+        - sourcetextAsset
+        - sourceString
+        - sourceProxyGameObject
+        - sourceProxyReference
+        - inMemoryReference
+        - _minimized
+        - _scroll
+        - _sourcePreview
+        - _sourceEdit
+        - xPath
+        - xPathQuery
+        - xPathVariables
+        - 
+        - _foldout
+        - parsedQuery
+        - xmlResult
+        - storeReference
+        - storeProperties
+        - properties
+        - propertiesVariables
+        - storeNodeProperties
+        - 
+        - property
+        - variable
+        - 
+        - property
+        - variable
+        - 
+        - property
+        - variable
+        - found
+        - foundEvent
+        - notFoundEvent
+        - errorEvent
+        paramDataPos: 0000000000000000010000000100000000000000010000000000000002000000000000000100000002000000030000000400000000000000000000000200000000000000030000000400000004000000050000000d0000000e000000010000000500000003000000020000000f00000005000000060000000700000002000000040000000500000006000000030000000800000003000000040000000900000004000000050000000a0000000500000000000000060000000700000008000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000100000008000000010000000100000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     - name: set sprite
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 91.33594
-        y: 215.32031
+        y: 327.3203
         width: 100
         height: 32
       isBreakpoint: 0
@@ -870,7 +985,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 58.640625
-        y: 658.9922
+        y: 770.9922
         width: 112.88
         height: 32
       isBreakpoint: 0
@@ -1061,7 +1176,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 51.304688
-        y: 592.9922
+        y: 704.9922
         width: 126.4
         height: 48
       isBreakpoint: 0
@@ -1131,7 +1246,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 82.65625
-        y: 324.625
+        y: 436.625
         width: 101.14
         height: 112
       isBreakpoint: 0
@@ -1323,7 +1438,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 275.32812
-        y: 293.64844
+        y: 405.64844
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1401,7 +1516,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 287.33594
-        y: 341.64844
+        y: 453.64844
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1479,7 +1594,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 286.64844
-        y: 394.9922
+        y: 506.9922
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1557,7 +1672,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 286
-        y: 445
+        y: 557
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1635,7 +1750,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 298.66406
-        y: 507.3125
+        y: 619.3125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1713,7 +1828,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 303.3203
-        y: 568.65625
+        y: 680.65625
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1937,7 +2052,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 81
-        y: 268.9922
+        y: 380.9922
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2069,6 +2184,126 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000000000001000000000000000100000000000000000000000000000002000000
         paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000
+    - name: get sprite type
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 102.66406
+        y: 257.66406
+        width: 125.56
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: set sprite
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 6ba59301
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: sprite
+          objectType: UnityEngine.Sprite
+          useVariable: 1
+          type: 12
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: item_sprite_array
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 12
+          objectTypeName: UnityEngine.Sprite
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: -1852840047, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: -1612823715, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: 381131419, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: -1040251257, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: -639447716, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: 527712784, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: -929612200, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+          - {fileID: -1577358035, guid: c7f9ffe268c269b49b31d7ec0948b000, type: 3}
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: sprite_type
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 2900000010000000270000000100000017000000
+        paramName:
+        - array
+        - index
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000000000000000000000100000000000000
     events:
     - name: USE CARD
       isSystemEvent: 0
@@ -2098,6 +2333,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: no value
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: found
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -2148,6 +2386,12 @@ MonoBehaviour:
         value: 0
       - useVariable: 1
         name: type
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: sprite_type
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -2207,7 +2451,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -2255,6 +2499,23 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
+--- !u!114 &3319909584242677539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941621184427469319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2c0db4429b8349528bf38c8691249c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceName: CARDS
+  storeInMemory: 
+  useSource: 0
+  XmlTextAsset: {fileID: 0}
+  FsmEventTarget: {fileID: 0}
 --- !u!1 &8346115137969459497
 GameObject:
   m_ObjectHideFlags: 0

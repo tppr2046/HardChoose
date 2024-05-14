@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DIALOGS>
+  <DIALOG id="5001" type="0" name_tag="勇者" dialog="我是勇者"></DIALOG>
+  <DIALOG id="5002" type="1" name_tag="勇者" dialog="耶！"></DIALOG>
+  <DIALOG id="5003" type="0" name_tag="怪物" dialog="我是怪物"></DIALOG>
+  <DIALOG id="5004" type="1" name_tag="怪物" dialog="怪物怪物！"></DIALOG>
+</DIALOGS>

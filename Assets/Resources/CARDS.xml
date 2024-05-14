@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CARDS>
+  <CARD id="1001"   name_text="攻擊"     type="0" sprite="0"></CARD>
+  <CARD id="1002"   name_text="防禦"     type="1" sprite="1"></CARD>
+  <CARD id="1003"   name_text="重抽"     type="2" sprite="2"></CARD>
+  <CARD id="1004"   name_text="再一張"   type="3" sprite="3"></CARD>
+  <CARD id="1005"   name_text="加回合"   type="4" sprite="4"></CARD>
+  <CARD id="1006"   name_text="玩家補血" type="5" sprite="5"></CARD>
+  <CARD id="1007"   name_text="敵人補血" type="6" sprite="6"></CARD>
+  <CARD id="1008"   name_text="重洗牌"   type="8" sprite="7"></CARD>
+
+</CARDS>
