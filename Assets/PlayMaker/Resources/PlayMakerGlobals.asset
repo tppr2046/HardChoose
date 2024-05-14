@@ -45,6 +45,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 4
+    - useVariable: 1
+      name: PLAYER_HP_MAX
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 20
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -79,5 +85,5 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events: []

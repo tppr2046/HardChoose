@@ -1115,7 +1115,10 @@ MonoBehaviour:
         - lateUpdate
         paramDataPos: 0000000000000000000000000100000002000000000000000400000005000000
         paramByteDataSize: 0000000000000000000000000000000000000000040000000100000001000000
-    events: []
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables: []
@@ -14580,7 +14583,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -14629,11 +14632,11 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 20
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -15522,7 +15525,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -15601,11 +15604,11 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 20
         - useVariable: 0
           name: 
           tooltip: 
@@ -16237,17 +16240,15 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.SetProperty
         - HutongGames.PlayMaker.Actions.SetProperty
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000300000005000000
-        actionHashCodes: 603dd9055ac852045ac85204
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000002000000
+        actionHashCodes: 5ac852045ac85204
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -16527,19 +16528,7 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: player_hp_max
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: PLAYER_HP
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 20
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -16547,22 +16536,19 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 10000000100000000100000024000000010000002400000001000000
+        paramDataType: 24000000010000002400000001000000
         paramName:
-        - intVariable
-        - intValue
-        - everyFrame
         - targetProperty
         - everyFrame
         - targetProperty
         - everyFrame
-        paramDataPos: 00000000010000000000000000000000010000000100000002000000
-        paramByteDataSize: 00000000000000000100000000000000010000000000000001000000
+        paramDataPos: 00000000000000000100000001000000
+        paramByteDataSize: 00000000010000000000000001000000
     - name: player enter
       description: 
       colorIndex: 0
@@ -18516,7 +18502,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -18571,11 +18557,11 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 20
         - useVariable: 0
           name: 
           tooltip: 
@@ -21830,12 +21816,6 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: player_hp_max
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
         name: add_turn
         tooltip: 
         showInInspector: 0
@@ -21938,7 +21918,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -33129,7 +33109,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -33142,11 +33122,11 @@ MonoBehaviour:
           value: 0
         fsmIntParams:
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 20
         - useVariable: 1
           name: item_value
           tooltip: 
@@ -33178,11 +33158,11 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: player_hp_max
+          name: PLAYER_HP_MAX
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 20
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -34979,18 +34959,6 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: player_hp_max
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: temp_card_count
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 0
-      - useVariable: 1
         name: temp_speed
         tooltip: 
         showInInspector: 0
@@ -35029,7 +34997,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

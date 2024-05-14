@@ -9,9 +9,9 @@
     <SLOT slot ="5"  card_id="1007" card_value="5"></SLOT>
     <SLOT slot ="6"  card_id="1008" card_value="5"></SLOT>
     <SLOT slot ="7"  card_id="1008" card_value="5"></SLOT>
-    <ITEM item_slot="0" item_id="4003"></ITEM>
+    <ITEM item_slot="0" item_id="4002"></ITEM>
     <ITEM item_slot="1" item_id="4003"></ITEM>
-    <ITEM item_slot="2" item_id="4003"></ITEM>
+    <ITEM item_slot="2" item_id="4001"></ITEM>
   </ENEMY>
   <ENEMY id="2002"  name_text="測試怪2"  hp="6" atk="3"  turn="4" dialog="5003" sprite="1">
     <SLOT slot ="0"  card_id="1001" card_value="2"></SLOT>
@@ -22,8 +22,8 @@
     <SLOT slot ="5"  card_id="1002" card_value="2"></SLOT>
     <SLOT slot ="6"  card_id="1002" card_value="2"></SLOT>
     <SLOT slot ="7"  card_id="1002" card_value="2"></SLOT>
-    <ITEM item_slot="0" item_id="4003"></ITEM>
+    <ITEM item_slot="0" item_id="4001"></ITEM>
     <ITEM item_slot="1" item_id="4003"></ITEM>
-    <ITEM item_slot="2" item_id="4003"></ITEM>
+    <ITEM item_slot="2" item_id="4005"></ITEM>
   </ENEMY>
 </ENEMYS>
