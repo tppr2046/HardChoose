@@ -52,7 +52,7 @@
       "dependencies": {}
     },
     "com.unity.2d.spriteshape": {
-      "version": "10.0.3",
+      "version": "10.0.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -191,7 +191,7 @@
       }
     },
     "com.unity.rendering.light-transport": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "depth": 2,
       "source": "builtin",
       "dependencies": {
